@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.container{
+    max-width: 960px;
+    overflow: hidden;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 0.8);
+}
+header{
+    margin: 30px 0px 20px;
+    border-bottom: 1px solid gray;
+
+}
+header h1,h2{
+    margin: 20px  0px;
+}
+header a{
+    
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.8);
+}
+nav{
+    float: left;
+    width: 300px;
+    height: 100vh;
+    border-right: 1px solid gray;
+   
+}
+nav ul{
+    list-style: none;
+    padding: 0px;
+}
+nav ul li{
+    margin: 15px 0px;
+}
+.main_index{
+    float: right;
+    width: 610px;
+}
+.img_entrada{
+    float: right;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 2px;
+}
+.titu_menu{
+    margin: 20px 20px 5px;
+}
+.text_menu{
+    margin-left: 20px;
+}
+.volver_arriba{
+    margin: 40px 0px;
+}
+.volver_arriba a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+}
+footer{
+    clear: both;
+    background: gray;
+}
+.footer_container{
+    overflow: hidden;
+}
+footer .footer_img{
+    float: left;
+    width: 300px;
+}
+.footer_img img{
+    width: 300px;
+    margin:20px;
+}
+footer .footer_contact{
+    float: right;
+    margin: 30px;
+}
+.footer_contact .contacto{
+    margin-bottom: 20px;
+}
+.footer_contact a{
+    text-decoration: none;
+    color: white;
+}
+/* termina index.html*/
+/*empieza contacto.html*/
+.main_contacto{
+    border: 2px solid gold;
+    margin: 10px;
+}
+.titu_contacto{
+    text-align: center;
+}
+.form_contacto{
+    padding: 30px;
+}
+.titu_form{
+    margin: 20px 0px;
+}
+.datos_contacto{
+    margin: 20px 0px;
+}
+.form_contacto button{
+    
+    padding: 10px 150px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+.enviar{
+    border: none;
+    background-color: goldenrod;
+    color: white;
+
+}
+.reset{
+    background-color: white;
+    border: 1px solid goldenrod;
+    color: goldenrod;
+}

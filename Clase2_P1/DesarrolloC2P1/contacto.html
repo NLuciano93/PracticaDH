@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contacto</title>
+</head>
+<body>
+        <div class="container contactoCont">
+                <header>
+                    <a href="index.html"><h1>Lucci Luciano</h1></a>
+                    
+                </header>
+
+                <main class="main_contacto">
+                    <section>
+                        <article>
+                            <h2 class="titu_contacto">Contacto</h2>
+                            <form class="form_contacto" action="" method="" >
+                                <p>
+                                    <label for="localidad">
+                                          <h3 class="titu_form">¿De dónde sos?</h3>
+                                    </label>
+                                    <br>
+                                    <select name="localidad" id="localidad">
+                                        <option value="0">Seleccioná una opción</option>
+                                    </select>
+                                </p>
+                                <p>
+                                    <label for="iluminacion">
+                                        <h3 class="titu_form">¿Qué te pareció la iluminación del ambiente?</h3>
+                                    </label>
+                                    <br>
+                                    <input type="checkbox" name="iluminacion"  value="muy"> Muy acorde 
+                                    <br>
+                                    <input type="checkbox" name="iluminacion" value="buena"> Buena, pero podría mejorar
+                                    <br>
+                                    <input type="checkbox" name="iluminacion" value="mala"> Mala
+                                </p>
+                                <p>
+                                        <label for="plato">
+                                           <h3 class="titu_form">¿Qué tipo de plato fue el que más te gustó?</h3> 
+                                        </label>
+                                        <br>
+                                        <input type="checkbox" name="plato" value="ent"> Entrada
+                                        <br>
+                                        <input type="checkbox" name="plato" value="ppal"> Plato principal
+                                        <br>
+                                        <input type="checkbox" name="plato" value="postre"> Postre
+                                        <br>
+                                        <input type="checkbox" name="plato" value="otros"> Otros
+                                </p>
+                                <p>
+                                    <label for="recomendado">
+                                        <h3 class="titu_form">¿Recomendarías el lugar?</h3>
+                                    </label>
+                                    <input type="radio" name="recomendado" value="si"> Sí   
+                                    <input type="radio" name="recomendado" value="si"> No 
+                                </p>
+    
+                                <p>
+                                    <label for="text_recomendar">
+                                        <h3 class="titu_form">¿Por qué?</h3>
+                                    </label>
+                                    <textarea name="text_recomendar" id="text_recomendar" cols="100" rows="10"></textarea>
+                                </p>
+                                <p>
+                                    <h3 class="titu_form">Dejanos tus datos y nos pondremos en contacto con vos</h3>
+                                </p>
+                                <p class="datos_contacto">
+                                    <label for="nombre">Nombre:</label>
+                                    <input type="text" name="nombre" id="nombre" placeholder="tu nombre">
+                                </p>
+                                <p class="datos_contacto">
+                                    <label for="email">Email:</label>
+                                    <input type="email" name="email" id="email" placeholder="tu email">
+                                </p>
+                                <button type="submit" name="submit" class="enviar">
+                                    Enviar
+                                </button>
+                                <button type="reset" name="reset" class="reset">
+                                    Resetear
+                                </button>
+                            </form>
+                        </article>
+                    </section>
+                </main>
+        </div>
+    
+</body>
+</html>

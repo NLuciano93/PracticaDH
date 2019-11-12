@@ -1,0 +1,7 @@
+input:hover{
+    background-color: orange;
+}
+input:focus {
+    background-color: violet;
+}
+p

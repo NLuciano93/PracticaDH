@@ -1,0 +1,27 @@
+p{
+  color: red;
+  /*tipografía */
+  font-family: Arial;
+  /*tamaño */
+  font-size: 10px;
+
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+  text-align: auto;
+ /*alto al tamño de la línea*/
+  line-height: 10px;
+  /* valor entre 0 y 1*/
+  /*opacity: 0.6;*/
+  background-color: rgba(255, 120, 56, 0.5);
+}
+.azul{
+  color: blue;
+}
+body{
+  background-image: url("../descarga.jpg");
+  /*cubre todo el fondo sin repetir*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}

@@ -1,0 +1,228 @@
+.body_index{
+    margin:0;
+    padding:0;
+ 
+    box-sizing: border-box;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container_index{
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+.header_index{
+    position: absolute;
+    width: 50%;
+}
+.seccionEmilia{
+    float: left;
+    width: 100%;
+   
+}
+.seccion_emilia article{
+    width: 100%;
+    
+}
+.emiliaFoto{
+    
+    width: 100%;
+    height: 100vh;
+    
+}
+ul{
+    padding: 0;
+}
+.nav_list{
+    
+    list-style: none;
+}
+.nav_list a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+.list_icons{
+    margin: 20px;
+}
+
+.emilia_cole{
+    font-family: 'Work Sans', sans-serif;
+    margin: 50% 10%;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    font-size: 1.8em;
+    line-height: 25px;
+}
+.footer_index{
+    position: absolute;
+    width: 100%;
+    
+    bottom: 5%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.twist_index{
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    padding: 1% 5%;
+    font-weight: bold;
+    color: black;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width : 1024px) and (orientation: portrait){
+
+    .nav_list a{
+        font-size: 1.5em;
+    }
+    .emilia_cole{
+        margin: 50% 10%;
+        letter-spacing: 5px;
+        word-spacing: 4px;
+        font-size: 2.2em;
+        line-height: 33px;
+    }
+
+
+}
+@media only screen and (min-width: 1024){
+
+    .header_index{
+        float: left;
+         width: 20%;
+         /*height: 100vh;*/  /*// esto va comentado*/
+         
+     }
+     ul{
+         padding: 0;
+     }
+     .nav_list{
+         
+         list-style: none;
+     }
+     .nav_list a{
+         text-decoration: none;
+         color: black;
+         display: block;
+         margin: 20px;
+         font-weight: bold;
+     }
+     .list_icons{
+         margin: 20px;
+     }
+     
+     .seccionEmilia{
+        float: left;
+         width: 80%;
+         /*height: 100vh;
+       background-image: url("../img/emilia_home.jpg");
+         background-size: cover;
+         height: 100vh;*//*esto va comentado*/
+         
+     }
+     .emiliaFoto{
+         
+         width: 100%;
+         height: 100vh;
+         
+     }
+     .footer_index{
+         position: absolute;
+         width: 100%;
+         
+         bottom: 5%;
+         background-color: rgba(255, 255, 255, 0.2);
+     }
+     .emilia_cole{
+         font-family: 'Work Sans', sans-serif;
+         
+     }
+     .twist_index{
+         font-family: 'Raleway', sans-serif;
+         font-size: 71px;
+         font-weight: bold;
+         padding: 0px 10px; 
+         margin: 0;
+     }
+     .emilia_cole{
+         margin: 50% 10%;
+         letter-spacing: 5px;
+         word-spacing: 4px;
+         font-size: 2.2em;
+         line-height: 33px;
+     }
+     
+
+
+
+
+}
+
+/*
+.header_index{
+   float: left;
+    width: 20%;
+    /*height: 100vh;// esto va comentado
+    
+}
+ul{
+    padding: 0;
+}
+.nav_list{
+    
+    list-style: none;
+}
+.nav_list a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin: 20px;
+    font-weight: bold;
+}
+.list_icons{
+    margin: 20px;
+}
+
+.seccionEmilia{
+   float: left;
+    width: 80%;
+    /*height: 100vh;
+  background-image: url("../img/emilia_home.jpg");
+    background-size: cover;
+    height: 100vh;//esto va comentado
+    
+}
+.emiliaFoto{
+    
+    width: 100%;
+    height: 100vh;
+    
+}
+.footer_index{
+    position: absolute;
+    width: 100%;
+    
+    bottom: 5%;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.emilia_cole{
+    font-family: 'Work Sans', sans-serif;
+    
+}
+.twist_index{
+    font-family: 'Raleway', sans-serif;
+    font-size: 71px;
+    font-weight: bold;
+    padding: 0px 10px; 
+    margin: 0;
+}
+.emilia_cole{
+    margin: 50% 10%;
+    letter-spacing: 5px;
+    word-spacing: 4px;
+    font-size: 2.2em;
+    line-height: 33px;
+}

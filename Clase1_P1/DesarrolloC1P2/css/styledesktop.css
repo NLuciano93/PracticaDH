@@ -1,0 +1,121 @@
+.body_index{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+.header_index{
+    float: left;
+     width: 20%;
+     /*height: 100vh;*/  /*// esto va comentado*/
+     
+ }
+ ul{
+     padding: 0;
+ }
+ .nav_list{
+     
+     list-style: none;
+ }
+ .nav_list a{
+     text-decoration: none;
+     color: black;
+     display: block;
+     margin: 20px;
+     font-weight: bold;
+ }
+ .list_icons{
+     margin: 20px;
+ }
+ 
+ .seccionEmilia{
+    float: left;
+     width: 80%;
+     /*height: 100vh;
+   background-image: url("../img/emilia_home.jpg");
+     background-size: cover;
+     height: 100vh;*//*esto va comentado*/
+     
+ }
+ .emiliaFoto{
+     
+     width: 100%;
+     height: 100vh;
+     
+ }
+ .footer_index{
+     position: absolute;
+     width: 100%;
+     
+     bottom: 5%;
+     background-color: rgba(255, 255, 255, 0.2);
+ }
+ .container_emilia_cole{
+    
+    
+ }
+ .emilia_cole{
+     font-family: 'Work Sans', sans-serif;
+     margin-top: 50%;
+     margin-bottom: 50%;
+     margin-left: 10px;
+     letter-spacing: 5px;
+     word-spacing: 4px;
+     font-size: 2.2em;
+     line-height: 33px;
+ }
+ .twist_index{
+     font-family: 'Raleway', sans-serif;
+     font-size: 71px;
+     font-weight: bold;
+     padding: 0px 10px; 
+     margin: 0;
+ }
+/* Estilo contacto.html*/
+.body_contact{
+    margin:0;
+    padding:0;
+ 
+    box-sizing: border-box;
+    
+    font-family: 'Open Sans', sans-serif;
+
+}
+.header_contact{
+    
+}
+.container_nav{
+    /*position: absolute;*/
+   overflow: hidden;
+   margin-top: 2vh;
+   background-color: rgba(0, 255, 255, 0.2);
+}
+.nav_contact{
+    /*overflow: hidden;*/
+    list-style: none;
+    float: right;
+   
+   
+
+}
+
+.nav_contact li{
+
+    display: inline-block;
+}
+.nav_contact a{
+    
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+}
+.icons_nav{
+    overflow: hidden;
+
+}
+.icons_container{
+    float: right;
+   
+    
+}

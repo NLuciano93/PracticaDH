@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="stylesform.css">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form action="practicaForm.html" method="post">
+           <p>
+               <label for="nombre">
+                   Nombre:
+               </label>
+               <input id="nombre" type="text" name="nombre" value="" placeholder="Ingrese su nombre aquí">
+           </p> 
+           <p>
+               <label for="email">
+                    Email:
+               </label>
+               <input id="email" type="email" name="email" value="">
+           </p>
+           <p>
+               <label for="pass">
+                    Contraseña:
+               </label>
+               <input id="pass" type="password" name="pass" value="">
+           </p>
+           <p>
+                <label for="cine">
+                    ¿Ya asistió al cine este año?
+                </label>
+                <br>
+                <input type="radio" name="cine" value="s"> Sí
+                <br>
+                <input type="radio" name="cine" value="n"> No
+
+           </p>
+
+           <p>
+                <label for="genero">Seleccione sus géneros</label>
+                    <br>
+                    <input type="checkbox" name="genero" value="d"> Drama
+                    <br>
+                    <input type="checkbox" name="genero" value="c"> Comedia
+                    <br>
+                    <input type="checkbox" name="genero" value="a"> Aventura
+                    <br>
+                    <input type="checkbox" name="genero" value="t"> Terror
+                    
+           </p>
+           <p>
+               <label for="pais">País:</label>
+               <select name="pais" id="pais">
+                   <option value="ar">
+                    Argentina
+                   </option>
+                   <option value="br">
+                    Brasil
+                   </option>
+                   <option value="co">
+                    Colombia
+                   </option>
+               </select>
+           </p>
+           <p>
+               <label for="com"></label>
+               <textarea name="com" id="com" cols="30" rows="10"></textarea>
+           </p>
+           <p>
+               <button type="submit" name="button">Enviar</button>
+               <button type="menu" name="button">Reiniciar</button>
+           </p>
+
+
+    </form>
+</body>
+</html>
